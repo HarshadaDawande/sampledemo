@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/")
 public class HelloController {
-    @GetMapping("/hello/")
+    @GetMapping("/hello/twaran")
     public String sayHelloTwaran() {
         return "Hello Twaran batch 5 and 6, welcome to CICD Spring Boot demo !!!";
     }
